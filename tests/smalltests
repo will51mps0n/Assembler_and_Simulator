@@ -1,0 +1,19 @@
+#!/bin/bash
+
+make clean
+make simulator 
+make assembler
+echo "test lwswlwlw:"
+echo 
+./assembler testLwSwLwLw.as testLwSwLwLw.mc  
+./simulator testLwSwLwLw.mc > testLwSwLwLw.txt
+echo 
+
+make clean
+make simulator 
+make assembler
+echo "test doblsw"
+echo 
+./assembler testdoblsw.as testdoblsw.mc  
+./simulator testdoblsw.mc > testdoblsw.txt
+echo 
