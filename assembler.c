@@ -358,9 +358,6 @@ static void checkForBlankLinesInCode(FILE *inFilePtr)
     rewind(inFilePtr);
 }
 
-/*
- * NOTE: The code defined below is not to be modifed as it is implimented correctly.
- */
 
 /*
  * Read and parse a line of the assembly-language file.  Fields are returned

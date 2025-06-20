@@ -243,7 +243,6 @@ void set_destinations(stateType *state, int *valA, int *valB, int wbDest, int wb
 {
 
     // for all, check opcode , set values to new  vaues if needed
-    // TODO : REGISTER NOT REGISTER VALUE EQUAL TO DESTINATIONS!!!!!!!
     if (wbOpcode == ADD || wbOpcode == NOR || wbOpcode == LW)
     {
         *valA = (regAindex == wbDest) ? state->WBEND.writeData : *valA;
@@ -418,10 +417,6 @@ void WB_stage(stateType *state, stateType *newState)
         break;
     }
 }
-
-/*
- * DO NOT MODIFY ANY OF THE CODE BELOW.
- */
 
 void printInstruction(int instr)
 {
