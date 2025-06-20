@@ -25,18 +25,6 @@ Print pass/fail summary
 
 ---
 
-## File Structure
-/
-├── assembler.c # Assembler source code
-├── simulator.c # Simulator source code
-├── Makefile # Build file
-├── README.md # This file
-├── runtests.sh # Runs all correctness tests
-└── tests/ # All test inputs, outputs, and expected files
-├── testname.as # Input assembly
-├── testname.mc # Assembled machine code
-├── testnameOut.txt # Simulator output
-├── testnameOut.correct # Expected correct output
 
 ## Setup & Build
 
