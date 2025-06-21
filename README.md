@@ -1,8 +1,8 @@
-# LC-2K Assembler & Simulator
+# Assembler & Simulator
 
-This project implements a two-part system for the LC-2K architecture:
-1. **Assembler** — converts LC-2K assembly code into machine code (`.mc`)
-2. **Simulator** — executes LC-2K machine code and prints output based on program logic
+This project implements a two-part system for a simulated architecture:
+1. **Assembler** — converts  assembly code into machine code (`.mc`)
+2. **Simulator** — executes machine code and prints output based on program logic
 
 Written entirely in C and tested using a suite of curated test programs.
 
@@ -10,7 +10,7 @@ Written entirely in C and tested using a suite of curated test programs.
 
 ## Features
 
-- Full support for LC-2K instruction set
+- Full support for a simulated instruction set
 - Strict error handling and debug-friendly output
 - Assembly-to-Machine Code compiler (`assembler.c`)
 - Machine Code simulator (`simulator.c`)
